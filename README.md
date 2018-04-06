@@ -1,5 +1,7 @@
 # GyozaKit 🥟
 
+![GyozaKit Demo](https://github.com/john-crossley/GyozaKit/blob/master/GyozaKit.gif)
+
 ## Installation
 
 ## Usage
