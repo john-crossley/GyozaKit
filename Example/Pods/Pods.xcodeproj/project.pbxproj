@@ -59,7 +59,7 @@
 		9A1AC64F20778561006E4A97 /* GyozaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyozaBuilder.swift; sourceTree = "<group>"; };
 		9A1AC653207791CC006E4A97 /* iPhoneX-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneX-Screenshot.png"; sourceTree = "<group>"; };
 		9A1AC654207791CC006E4A97 /* iPhoneSE-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSE-Screenshot.png"; sourceTree = "<group>"; };
-		9A1AC65520779247006E4A97 /* GyozaKit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = GyozaKit.gif; path = ../GyozaKit.gif; sourceTree = "<group>"; };
+		9A1AC65620779317006E4A97 /* GyozaKit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GyozaKit.gif; sourceTree = "<group>"; };
 		9BBFF76C7F9F16E938B055EA4DFD5CEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A607C315BD2861980F7A804A534EF440 /* Pods-GyozaKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1468354CE27F0AD794D768A774660E2 /* Pods-GyozaKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		9A1AC65220779137006E4A97 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				9A1AC65520779247006E4A97 /* GyozaKit.gif */,
+				9A1AC65620779317006E4A97 /* GyozaKit.gif */,
 				9A1AC654207791CC006E4A97 /* iPhoneSE-Screenshot.png */,
 				9A1AC653207791CC006E4A97 /* iPhoneX-Screenshot.png */,
 			);

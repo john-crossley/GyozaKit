@@ -39,7 +39,7 @@ let gyoza = Gyoza { builder in
     })
 }
 
-gyoza(on: self.view)
+gyoza.show(on: self.view)
 ```
 
 ## Author
