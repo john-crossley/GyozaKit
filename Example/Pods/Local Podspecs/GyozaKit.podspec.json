@@ -1,0 +1,22 @@
+{
+  "name": "GyozaKit",
+  "version": "0.1.0",
+  "summary": "A short description of GyozaKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/john-crossley/GyozaKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "john-crossley": "jonnysnip3r@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/john-crossley/GyozaKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GyozaKit/Classes/**/*"
+}

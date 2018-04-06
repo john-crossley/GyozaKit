@@ -5,7 +5,5 @@ target 'GyozaKit_Example' do
 
   target 'GyozaKit_Tests' do
     inherit! :search_paths
-
-    
   end
 end

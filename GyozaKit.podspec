@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GyozaKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GyozaKit.'
+  s.name = 'GyozaKit'
+  s.version = '0.1.0'
+  s.summary = 'GyozaKit for iOS allows you to create a simple message to display to your user'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  GyozaKit for iOS allows you to create a simple message with or without an action to display to your users. Once the gyoza is invoked, it'll pop into view with a simple animation.
                        DESC
 
   s.homepage         = 'https://github.com/john-crossley/GyozaKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'john-crossley' => 'jonnysnip3r@gmail.com' }
+  s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com' }
   s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/jonnothebonno'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GyozaKit/Classes/**/*'
   

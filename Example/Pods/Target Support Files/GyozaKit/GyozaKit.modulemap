@@ -1,0 +1,6 @@
+framework module GyozaKit {
+  umbrella header "GyozaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
