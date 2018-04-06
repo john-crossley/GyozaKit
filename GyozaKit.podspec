@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/john-crossley/GyozaKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://raw.githubusercontent.com/john-crossley/GyozaKit/Assets/iPhoneX-Screenshot.png', 'https://raw.githubusercontent.com/john-crossley/GyozaKit/Assets/iPhoneSE-Screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com' }
   s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version.to_s }
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GyozaKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GyozaKit' => ['GyozaKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'GyozaKit' => ['GyozaKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
