@@ -25,15 +25,15 @@ Pod::Spec.new do |s|
   s.screenshots      = ['https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneSE-Screenshot.png?raw=true', 'https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneX-Screenshot.png?raw=true']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com', 'jamesruston' => 'jruston90@gmail.com' }
-  s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version.to_s }
-   s.social_media_url = 'https://twitter.com/jonnothebonno'
+  s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version }
+  s.social_media_url = 'https://twitter.com/jonnothebonno'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GyozaKit/Classes/**/*'
-  
+  s.source_files = 'Classes/**/*'
+
   s.resource_bundles = {
-    'GyozaKit' => ['GyozaKit/Assets/*.png']
+    'GyozaKit' => ['Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
