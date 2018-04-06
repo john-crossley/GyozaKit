@@ -4,6 +4,19 @@
 
 ## Installation
 
+GyozaKit is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'GyozaKit'
+```
+
+and run
+
+```bash
+pod install
+```
+
 ## Usage
 
 When building a Gyoza the most basic example is the one shown below. The only property you need to set on the builder is a message.
