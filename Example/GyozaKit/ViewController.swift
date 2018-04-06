@@ -10,11 +10,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        title = "SnackBarKit"
+        title = "GyozaKit"
 
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Show SnackBar", for: .normal)
+        button.setTitle("Show Gyoza", for: .normal)
         view.addSubview(button)
         button.addTarget(self, action: #selector(didTapShowButton(sender:)), for: .touchUpInside)
 
