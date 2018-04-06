@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/john-crossley/GyozaKit'
-  s.screenshots      = 'https://raw.githubusercontent.com/john-crossley/GyozaKit/Assets/iPhoneX-Screenshot.png', 'https://raw.githubusercontent.com/john-crossley/GyozaKit/Assets/iPhoneSE-Screenshot.png'
+  s.screenshots      = ['https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneSE-Screenshot.png?raw=true', 'https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneX-Screenshot.png?raw=true']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com' }
+  s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com', 'jamesruston' => 'jruston90@gmail.com' }
   s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/jonnothebonno'
 
