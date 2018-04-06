@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GyozaKit_Example' do
+  pod 'GyozaKit', :path => '../'
+
+  target 'GyozaKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
