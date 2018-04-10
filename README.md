@@ -5,7 +5,7 @@
 
 # GyozaKit 🥟
 
-![GyozaKit Demo](https://rawgit.com/john-crossley/GyozaKit/master/Example/GyozaKit.gif)
+![GyozaKit Demo](https://raw.githubusercontent.com/john-crossley/GyozaKit/master/Example/GyozaKit/GyozaKit.gif)
 
 ## Installation
 
