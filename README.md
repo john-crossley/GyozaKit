@@ -1,3 +1,8 @@
+
+[![Version](https://img.shields.io/cocoapods/v/GyozaKit.svg?style=flat)](http://cocoapods.org/pods/GyozaKit)
+[![License](https://img.shields.io/cocoapods/l/GyozaKit.svg?style=flat)](http://cocoapods.org/pods/GyozaKit)
+[![Platform](https://img.shields.io/cocoapods/p/GyozaKit.svg?style=flat)](http://cocoapods.org/pods/GyozaKit)
+
 # GyozaKit 🥟
 
 ![GyozaKit Demo](https://rawgit.com/john-crossley/GyozaKit/master/Example/GyozaKit.gif)
