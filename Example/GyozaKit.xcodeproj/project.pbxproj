@@ -12,6 +12,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9AFB33D0207CE96300228B66 /* iPhoneSE-Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB33CD207CE96300228B66 /* iPhoneSE-Screenshot.png */; };
+		9AFB33D1207CE96300228B66 /* iPhoneX-Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB33CE207CE96300228B66 /* iPhoneX-Screenshot.png */; };
+		9AFB33D2207CE96300228B66 /* GyozaKit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB33CF207CE96300228B66 /* GyozaKit.gif */; };
 		9DAC4127821FCE0F8313131A /* Pods_GyozaKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A9F05DA3CC570904FD3323 /* Pods_GyozaKit_Example.framework */; };
 		A866A5A722BCD03639D4E47A /* Pods_GyozaKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206CF5F1A7BE40EFC96A300F /* Pods_GyozaKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +46,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		68A9F05DA3CC570904FD3323 /* Pods_GyozaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyozaKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		923DC29BA83198FC44968114 /* Pods-GyozaKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyozaKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GyozaKit_Example/Pods-GyozaKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AFB33CD207CE96300228B66 /* iPhoneSE-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSE-Screenshot.png"; sourceTree = "<group>"; };
+		9AFB33CE207CE96300228B66 /* iPhoneX-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneX-Screenshot.png"; sourceTree = "<group>"; };
+		9AFB33CF207CE96300228B66 /* GyozaKit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GyozaKit.gif; sourceTree = "<group>"; };
 		D59718C25852363142EFF561 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF025861BA339D3B3834F833 /* Pods-GyozaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyozaKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GyozaKit_Tests/Pods-GyozaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,9 @@
 		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				9AFB33CF207CE96300228B66 /* GyozaKit.gif */,
+				9AFB33CD207CE96300228B66 /* iPhoneSE-Screenshot.png */,
+				9AFB33CE207CE96300228B66 /* iPhoneX-Screenshot.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -245,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				9AFB33D0207CE96300228B66 /* iPhoneSE-Screenshot.png in Resources */,
+				9AFB33D2207CE96300228B66 /* GyozaKit.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9AFB33D1207CE96300228B66 /* iPhoneX-Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

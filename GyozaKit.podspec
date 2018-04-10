@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'GyozaKit'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'GyozaKit for iOS allows you to create a simple message to display to your user'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/john-crossley/GyozaKit'
-  s.screenshots      = ['https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneSE-Screenshot.png?raw=true', 'https://github.com/john-crossley/GyozaKit/blob/master/Assets/iPhoneX-Screenshot.png?raw=true']
+  s.screenshots      = ['https://github.com/john-crossley/GyozaKit/blob/master/Example/iPhoneSE-Screenshot.png?raw=true', 'https://github.com/john-crossley/GyozaKit/blob/master/Example/iPhoneX-Screenshot.png?raw=true']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'john-crossley' => 'johnpaulcrossley@gmail.com', 'jamesruston' => 'jruston90@gmail.com' }
   s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version }
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
 
-  s.resource_bundles = {
-    'GyozaKit' => ['Assets/*.png']
-  }
+#  s.resource_bundles = {
+#    'GyozaKit' => ['Assets/*.png']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

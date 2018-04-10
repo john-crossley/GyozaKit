@@ -1,6 +1,6 @@
 # GyozaKit 🥟
 
-![GyozaKit Demo](https://rawgit.com/john-crossley/GyozaKit/master/Assets/GyozaKit.gif)
+![GyozaKit Demo](https://rawgit.com/john-crossley/GyozaKit/master/Example/GyozaKit.gif)
 
 ## Installation
 
