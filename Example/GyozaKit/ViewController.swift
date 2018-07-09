@@ -38,6 +38,10 @@ class ViewController: UIViewController {
                 guard let controller = self?.makeAlertController() else { return }
                 self?.present(controller, animated: true, completion: nil)
             })
+
+            builder.completion = {
+                print("I have finished the 🥟 animation! 🎉")
+            }
         }
 
         gyoza?.show(on: view)
