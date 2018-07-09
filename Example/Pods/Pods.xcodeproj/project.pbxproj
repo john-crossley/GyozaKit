@@ -114,7 +114,6 @@
 		3F1342D63F19E059C9AE7C5081E4EEF2 /* GyozaKit */ = {
 			isa = PBXGroup;
 			children = (
-				9A1AC65220779137006E4A97 /* Assets */,
 				9A1AC651207786E4006E4A97 /* Classes */,
 				ECEDE260B76994B5D3D94048E22312B7 /* Pod */,
 				3014F332FB169B0C95B398271AEAB444 /* Support Files */,
@@ -166,13 +165,6 @@
 				9A1AC64C20778532006E4A97 /* Gyoza.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		9A1AC65220779137006E4A97 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		B7F6C3426A8932415C8CEFF7F086F935 /* Pods-GyozaKit_Tests */ = {

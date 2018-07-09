@@ -37,6 +37,7 @@ public class Gyoza: UIView {
     // MARK: Action
 
     private var action: Action?
+    private var completion: GyozaBuilder.CompletionHandler?
 
     private var calculateMinimumHeight: CGFloat {
         if #available(iOS 11.0, *) {
@@ -79,6 +80,7 @@ public class Gyoza: UIView {
         self.animateInDuration = builder.animateInDuration
         self.animateOutDuration = builder.animateOutDuration
         self.animatePauseDuration = builder.animatePauseDuration
+        self.completion = builder.completion
 
         super.init(frame: .zero)
 
@@ -104,14 +106,10 @@ public class Gyoza: UIView {
         self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         self.heightAnchor.constraint(greaterThanOrEqualToConstant: minimumHeight).isActive = true
 
-        if #available(iOS 11.0, *) {
-            self.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-        } else {
-            self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        }
+        self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 
         let stackView = UIStackView(frame: .zero)
-        stackView.alignment = .fill
+        stackView.alignment = .top
         stackView.distribution = .fill
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -189,6 +187,7 @@ public class Gyoza: UIView {
 
     private var animateOutCompletion: (Bool) -> Void {
         return { _ in
+            self.completion?()
             self.removeFromSuperview()
         }
     }
