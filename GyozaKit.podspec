@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'GyozaKit'
-  s.version = '0.1.1'
+  s.version = '0.1.2'
   s.summary = 'GyozaKit for iOS allows you to create a simple message to display to your user'
 
 # This description is used to generate tags and improve search results.
