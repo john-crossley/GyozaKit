@@ -7,82 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1314A650422B38F5E1A6B07BE9174B46 /* GyozaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8FFE8199EDD8F5459CAFCDFF83593 /* GyozaKit-dummy.m */; };
 		25D790A67AA6531BF589A31B70FB4325 /* Pods-GyozaKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9699068635B52DC4489788205D24C7 /* Pods-GyozaKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		298A1FD0F025497D4C518FB8955CE0E5 /* Pods-GyozaKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A607C315BD2861980F7A804A534EF440 /* Pods-GyozaKit_Tests-dummy.m */; };
-		33EFE68FD8CA7603A808CC60F70FD675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		475617F706C57EDC66C3FDE94AD91814 /* Pods-GyozaKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B726589D179D2F05C0082ABC6C1D97 /* Pods-GyozaKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BB050BDCF226000A211B5FE55FE05FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5B5504E857665BDEC6B793A3565F4AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9A1AC64D20778532006E4A97 /* Gyoza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1AC64C20778532006E4A97 /* Gyoza.swift */; };
-		9A1AC65020778561006E4A97 /* GyozaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1AC64F20778561006E4A97 /* GyozaBuilder.swift */; };
+		8493F643A4F781EF4B3C77F5FEDB5877 /* GyozaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE99BF36E5599C596948C52FFD2E08A6 /* GyozaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8968CAB969C6ACE25833C4F20FCEA9BA /* Gyoza.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6DE5771E93E20087146A103830FDD /* Gyoza.swift */; };
+		8A1242C2318BC37D5D6B3400FCEF3837 /* Pods-GyozaKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B726589D179D2F05C0082ABC6C1D97 /* Pods-GyozaKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AADB12B44A4CD7E8EBA260EBC03193B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AD9532402D22E309EC1DDEA79AE22AF3 /* Pods-GyozaKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1468354CE27F0AD794D768A774660E2 /* Pods-GyozaKit_Example-dummy.m */; };
-		CD0DCE5B1F232358C873BBA6518C004E /* GyozaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8F719649809948ACB7AF8741DBA8B1 /* GyozaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1388684391D0AD3C59A121EB48ECCFF /* GyozaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905921B466F428498825CE81C2532A1B /* GyozaKit-dummy.m */; };
+		DE610195C69BE0532A260BBE3E0A8F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F8244C4242359902A140AC7E22F3F038 /* GyozaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163939922012305507F787296A6A9BA /* GyozaBuilder.swift */; };
+		FF8C452B7F5A6A800A663574D87DE449 /* Pods-GyozaKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A607C315BD2861980F7A804A534EF440 /* Pods-GyozaKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		349D0BD23298592CDC7D3BB003AC723F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C120AC7B1EFE76D0A0782E842893FE5A;
+			remoteInfo = "Pods-GyozaKit_Example";
+		};
 		CBFA5264DCD827CAD8A629E09CDF62F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 252FB4F27D7DFE4838B3A2F844CC1016;
+			remoteGlobalIDString = 3DE266E16F6589C423CD8DDBC7094CAD;
 			remoteInfo = GyozaKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05B726589D179D2F05C0082ABC6C1D97 /* Pods-GyozaKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GyozaKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1549A09B9F0B4F49A7087F0236A9B4EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		18D6535DCA00339C4E8CFD7F1F03F972 /* GyozaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GyozaKit.modulemap; sourceTree = "<group>"; };
+		08BDDDF2781A42D481312D7F26F1A353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2163939922012305507F787296A6A9BA /* GyozaBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GyozaBuilder.swift; sourceTree = "<group>"; };
 		253CC2C4F44F4E76082E04895E12A2B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BFB08131C7F5349A95B1E9FFA84D22A /* GyozaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GyozaKit-prefix.pch"; sourceTree = "<group>"; };
 		2FB2F41F6B2893462F1E075E2D1E979C /* Pods-GyozaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34B7AA34CC5CF01E5988816691BBDABC /* GyozaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GyozaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7AA34CC5CF01E5988816691BBDABC /* GyozaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GyozaKit.framework; path = GyozaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376496B792AB45CB5DBDFBE5393FF81C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B72EA6993E739D678298484D235E40F /* Pods-GyozaKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GyozaKit_Example.modulemap"; sourceTree = "<group>"; };
-		3C33A7FAC9FE2A1646B2199F704129BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C18E023113321F5F5AC309830E9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3C9699068635B52DC4489788205D24C7 /* Pods-GyozaKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GyozaKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D9DCC6F5ACB1A5C1B68892FB5756CDC /* Pods-GyozaKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GyozaKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E8F719649809948ACB7AF8741DBA8B1 /* GyozaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GyozaKit-umbrella.h"; sourceTree = "<group>"; };
-		52C4F49FE505FE22ACC4A1575CC645CD /* GyozaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GyozaKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5746CF5274067EE1154337AB3E3BE507 /* Pods-GyozaKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyozaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GyozaKit_Tests.framework; path = "Pods-GyozaKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFF77EEA8AC82F3F47437F80A086D92 /* GyozaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GyozaKit.modulemap; sourceTree = "<group>"; };
 		5F9535BB02EF0BB75CC0FE5CED8F47F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		606D9F532D2A85A45107E08479590949 /* Pods_GyozaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyozaKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		606D9F532D2A85A45107E08479590949 /* Pods_GyozaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GyozaKit_Example.framework; path = "Pods-GyozaKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65327E9F14507ADD38A7843E347D7F81 /* Pods-GyozaKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6DE8FFE8199EDD8F5459CAFCDFF83593 /* GyozaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GyozaKit-dummy.m"; sourceTree = "<group>"; };
 		6E0F71D42B9496B84FDF1D5822ADF11E /* Pods-GyozaKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GyozaKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E5002747C8FC7B77FDBE1E2696D645B /* Pods-GyozaKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Example-resources.sh"; sourceTree = "<group>"; };
 		85DBADE85187BDA6E71A9BFA1B8EBD8E /* Pods-GyozaKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A1AC64C20778532006E4A97 /* Gyoza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyoza.swift; sourceTree = "<group>"; };
-		9A1AC64F20778561006E4A97 /* GyozaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyozaBuilder.swift; sourceTree = "<group>"; };
-		9BBFF76C7F9F16E938B055EA4DFD5CEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D51E35883BBB3E020281FDB79163328 /* GyozaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GyozaKit.xcconfig; sourceTree = "<group>"; };
+		905921B466F428498825CE81C2532A1B /* GyozaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GyozaKit-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1E109869FF0BB54FF89042551E803ED /* GyozaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GyozaKit-prefix.pch"; sourceTree = "<group>"; };
 		A607C315BD2861980F7A804A534EF440 /* Pods-GyozaKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1468354CE27F0AD794D768A774660E2 /* Pods-GyozaKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Example-dummy.m"; sourceTree = "<group>"; };
 		B6A6CBD7E6CD0AD68E187CBD5897AAD9 /* Pods-GyozaKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GyozaKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B86F507B05EAB186B46871521D63B171 /* Pods-GyozaKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BB701E3C1B5DEEE1B091DBD1BEF3DCD6 /* Pods-GyozaKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C890039215A2113D52A35FCA3E3D7825 /* GyozaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GyozaKit.xcconfig; sourceTree = "<group>"; };
+		DE99BF36E5599C596948C52FFD2E08A6 /* GyozaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GyozaKit-umbrella.h"; sourceTree = "<group>"; };
 		E21054D46E0A75C35C941668F098BC31 /* Pods-GyozaKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GyozaKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E2D4A9B9E5EE684FCB735E58C7543D7A /* Pods-GyozaKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E4B6DE5771E93E20087146A103830FDD /* Gyoza.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gyoza.swift; path = Classes/Gyoza.swift; sourceTree = "<group>"; };
 		F43BAB947030370AD7B4CD53E70C5D63 /* Pods-GyozaKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GyozaKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9901B505821AE602FF2FEE8BEF7E10B /* GyozaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GyozaKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C37FD472E295556FDABAABB3F32C69E /* Frameworks */ = {
+		42E8EAC506FB612A5279443D597F525B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33EFE68FD8CA7603A808CC60F70FD675 /* Foundation.framework in Frameworks */,
+				DE610195C69BE0532A260BBE3E0A8F26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D8797D92CFCA26B3AD503E0634E7049 /* Frameworks */ = {
+		A3B3AB80021125C03E85F137B8441BCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB050BDCF226000A211B5FE55FE05FE /* Foundation.framework in Frameworks */,
+				AADB12B44A4CD7E8EBA260EBC03193B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,49 +104,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3014F332FB169B0C95B398271AEAB444 /* Support Files */ = {
+		401221A2E211E08DBAD81CC9DAD2E12A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18D6535DCA00339C4E8CFD7F1F03F972 /* GyozaKit.modulemap */,
-				C890039215A2113D52A35FCA3E3D7825 /* GyozaKit.xcconfig */,
-				6DE8FFE8199EDD8F5459CAFCDFF83593 /* GyozaKit-dummy.m */,
-				2BFB08131C7F5349A95B1E9FFA84D22A /* GyozaKit-prefix.pch */,
-				3E8F719649809948ACB7AF8741DBA8B1 /* GyozaKit-umbrella.h */,
-				3C33A7FAC9FE2A1646B2199F704129BE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GyozaKit";
-			sourceTree = "<group>";
-		};
-		3F1342D63F19E059C9AE7C5081E4EEF2 /* GyozaKit */ = {
-			isa = PBXGroup;
-			children = (
-				9A1AC65220779137006E4A97 /* Assets */,
-				9A1AC651207786E4006E4A97 /* Classes */,
-				ECEDE260B76994B5D3D94048E22312B7 /* Pod */,
-				3014F332FB169B0C95B398271AEAB444 /* Support Files */,
-			);
-			name = GyozaKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5B52ACE0BB30EB87947047471FD5EC34 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3F1342D63F19E059C9AE7C5081E4EEF2 /* GyozaKit */,
+				A01BA4257239C9395B359CE8F96A0395 /* GyozaKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7767B934DC222748D33F774518B9E28C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9901B505821AE602FF2FEE8BEF7E10B /* GyozaKit.podspec */,
+				08BDDDF2781A42D481312D7F26F1A353 /* LICENSE */,
+				3C18E023113321F5F5AC309830E9B796 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B9D09771F667FFE25EFE4CA44D8814B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				2163939922012305507F787296A6A9BA /* GyozaBuilder.swift */,
+			);
+			name = Builder;
+			path = Classes/Builder;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5B52ACE0BB30EB87947047471FD5EC34 /* Development Pods */,
+				401221A2E211E08DBAD81CC9DAD2E12A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F2E39539CD07232DE85AF5CAF0E7181C /* Products */,
 				99334C8C7DE07E3B75F96FA39997EAD3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		96A5245CC9F09F6E047D48B3162544B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF77EEA8AC82F3F47437F80A086D92 /* GyozaKit.modulemap */,
+				8D51E35883BBB3E020281FDB79163328 /* GyozaKit.xcconfig */,
+				905921B466F428498825CE81C2532A1B /* GyozaKit-dummy.m */,
+				A1E109869FF0BB54FF89042551E803ED /* GyozaKit-prefix.pch */,
+				DE99BF36E5599C596948C52FFD2E08A6 /* GyozaKit-umbrella.h */,
+				376496B792AB45CB5DBDFBE5393FF81C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GyozaKit";
 			sourceTree = "<group>";
 		};
 		99334C8C7DE07E3B75F96FA39997EAD3 /* Targets Support Files */ = {
@@ -151,28 +165,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9A1AC64E20778555006E4A97 /* Builder */ = {
+		A01BA4257239C9395B359CE8F96A0395 /* GyozaKit */ = {
 			isa = PBXGroup;
 			children = (
-				9A1AC64F20778561006E4A97 /* GyozaBuilder.swift */,
+				E4B6DE5771E93E20087146A103830FDD /* Gyoza.swift */,
+				7B9D09771F667FFE25EFE4CA44D8814B /* Builder */,
+				7767B934DC222748D33F774518B9E28C /* Pod */,
+				96A5245CC9F09F6E047D48B3162544B0 /* Support Files */,
 			);
-			path = Builder;
-			sourceTree = "<group>";
-		};
-		9A1AC651207786E4006E4A97 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9A1AC64E20778555006E4A97 /* Builder */,
-				9A1AC64C20778532006E4A97 /* Gyoza.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9A1AC65220779137006E4A97 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
+			name = GyozaKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B7F6C3426A8932415C8CEFF7F086F935 /* Pods-GyozaKit_Tests */ = {
@@ -227,16 +229,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ECEDE260B76994B5D3D94048E22312B7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				52C4F49FE505FE22ACC4A1575CC645CD /* GyozaKit.podspec */,
-				9BBFF76C7F9F16E938B055EA4DFD5CEE /* LICENSE */,
-				1549A09B9F0B4F49A7087F0236A9B4EB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F2E39539CD07232DE85AF5CAF0E7181C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,11 +242,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7409CC88B94DE363C27A4E249EB9F6A3 /* Headers */ = {
+		85963E18D803028178E559D3FFB43F59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475617F706C57EDC66C3FDE94AD91814 /* Pods-GyozaKit_Tests-umbrella.h in Headers */,
+				8A1242C2318BC37D5D6B3400FCEF3837 /* Pods-GyozaKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,24 +258,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8CE9E71F515A00C0BAAD20AA9FF4EBC /* Headers */ = {
+		BE39AD8D538EDA7F4A39825055842DAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0DCE5B1F232358C873BBA6518C004E /* GyozaKit-umbrella.h in Headers */,
+				8493F643A4F781EF4B3C77F5FEDB5877 /* GyozaKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		252FB4F27D7DFE4838B3A2F844CC1016 /* GyozaKit */ = {
+		3DE266E16F6589C423CD8DDBC7094CAD /* GyozaKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 728930DB187C4A07DAC3A0064658A807 /* Build configuration list for PBXNativeTarget "GyozaKit" */;
+			buildConfigurationList = BB03EBD5E0228CF62C6839C23FEEE3DF /* Build configuration list for PBXNativeTarget "GyozaKit" */;
 			buildPhases = (
-				C8D7AEDDD1FE4F3E59990957DF158C36 /* Sources */,
-				0D8797D92CFCA26B3AD503E0634E7049 /* Frameworks */,
-				E8CE9E71F515A00C0BAAD20AA9FF4EBC /* Headers */,
+				851DD6A8E05813660CC69F4A69D7702F /* Sources */,
+				42E8EAC506FB612A5279443D597F525B /* Frameworks */,
+				BE39AD8D538EDA7F4A39825055842DAE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -292,6 +284,24 @@
 			name = GyozaKit;
 			productName = GyozaKit;
 			productReference = 34B7AA34CC5CF01E5988816691BBDABC /* GyozaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8159A6FA3E7126C08D026BCC5E83491E /* Pods-GyozaKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928352D2E8769B36997BB13611C48C0F /* Build configuration list for PBXNativeTarget "Pods-GyozaKit_Tests" */;
+			buildPhases = (
+				D9C2F03CEC9B3B967FB7D94DC782D2B0 /* Sources */,
+				A3B3AB80021125C03E85F137B8441BCF /* Frameworks */,
+				85963E18D803028178E559D3FFB43F59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9EADDBDA3437900EE352949BA9A3F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GyozaKit_Tests";
+			productName = "Pods-GyozaKit_Tests";
+			productReference = 5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C120AC7B1EFE76D0A0782E842893FE5A /* Pods-GyozaKit_Example */ = {
@@ -312,23 +322,6 @@
 			productReference = 606D9F532D2A85A45107E08479590949 /* Pods_GyozaKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F27975DF2F3A3F288074D171C58FE408 /* Pods-GyozaKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A3192257AD50B833DC417745B0E6BE00 /* Build configuration list for PBXNativeTarget "Pods-GyozaKit_Tests" */;
-			buildPhases = (
-				A089D9F6E6FEC5A82207F9A04D9FCC06 /* Sources */,
-				0C37FD472E295556FDABAABB3F32C69E /* Frameworks */,
-				7409CC88B94DE363C27A4E249EB9F6A3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-GyozaKit_Tests";
-			productName = "Pods-GyozaKit_Tests";
-			productReference = 5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,11 +330,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					252FB4F27D7DFE4838B3A2F844CC1016 = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,9 +343,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				252FB4F27D7DFE4838B3A2F844CC1016 /* GyozaKit */,
+				3DE266E16F6589C423CD8DDBC7094CAD /* GyozaKit */,
 				C120AC7B1EFE76D0A0782E842893FE5A /* Pods-GyozaKit_Example */,
-				F27975DF2F3A3F288074D171C58FE408 /* Pods-GyozaKit_Tests */,
+				8159A6FA3E7126C08D026BCC5E83491E /* Pods-GyozaKit_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -371,74 +359,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A089D9F6E6FEC5A82207F9A04D9FCC06 /* Sources */ = {
+		851DD6A8E05813660CC69F4A69D7702F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298A1FD0F025497D4C518FB8955CE0E5 /* Pods-GyozaKit_Tests-dummy.m in Sources */,
+				8968CAB969C6ACE25833C4F20FCEA9BA /* Gyoza.swift in Sources */,
+				F8244C4242359902A140AC7E22F3F038 /* GyozaBuilder.swift in Sources */,
+				D1388684391D0AD3C59A121EB48ECCFF /* GyozaKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8D7AEDDD1FE4F3E59990957DF158C36 /* Sources */ = {
+		D9C2F03CEC9B3B967FB7D94DC782D2B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A1AC65020778561006E4A97 /* GyozaBuilder.swift in Sources */,
-				9A1AC64D20778532006E4A97 /* Gyoza.swift in Sources */,
-				1314A650422B38F5E1A6B07BE9174B46 /* GyozaKit-dummy.m in Sources */,
+				FF8C452B7F5A6A800A663574D87DE449 /* Pods-GyozaKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5C9EADDBDA3437900EE352949BA9A3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GyozaKit_Example";
+			target = C120AC7B1EFE76D0A0782E842893FE5A /* Pods-GyozaKit_Example */;
+			targetProxy = 349D0BD23298592CDC7D3BB003AC723F /* PBXContainerItemProxy */;
+		};
 		A0F4EEAF16AD3C410DEDF895291F19CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GyozaKit;
-			target = 252FB4F27D7DFE4838B3A2F844CC1016 /* GyozaKit */;
+			target = 3DE266E16F6589C423CD8DDBC7094CAD /* GyozaKit */;
 			targetProxy = CBFA5264DCD827CAD8A629E09CDF62F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		113B8BDFFD77E60A8983832F5DD14283 /* Release */ = {
+		039626EEC398C955160C6349F5B747B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB701E3C1B5DEEE1B091DBD1BEF3DCD6 /* Pods-GyozaKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GyozaKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GyozaKit_Example/Pods-GyozaKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1F00E7BA32CC70CD022BBC52C001F031 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FB2F41F6B2893462F1E075E2D1E979C /* Pods-GyozaKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 5746CF5274067EE1154337AB3E3BE507 /* Pods-GyozaKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -464,47 +423,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3B5F17321D670E91886FAFEB1B43AE8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C890039215A2113D52A35FCA3E3D7825 /* GyozaKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
-				PRODUCT_MODULE_NAME = GyozaKit;
-				PRODUCT_NAME = GyozaKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -567,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		A0BEE7280150B054CE34CCA210B19247 /* Debug */ = {
+		1D478D5160777CE30C150503C820C565 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65327E9F14507ADD38A7843E347D7F81 /* Pods-GyozaKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -602,7 +526,141 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		305AA8AAA35C1021727E7C941A7F0500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB701E3C1B5DEEE1B091DBD1BEF3DCD6 /* Pods-GyozaKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GyozaKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GyozaKit_Example/Pods-GyozaKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3E39ACE8DF477CCB16C1BCA37B12A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB2F41F6B2893462F1E075E2D1E979C /* Pods-GyozaKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GyozaKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GyozaKit_Tests/Pods-GyozaKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC6B9A21F13AC377BF8BC4156729E810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D51E35883BBB3E020281FDB79163328 /* GyozaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
+				PRODUCT_MODULE_NAME = GyozaKit;
+				PRODUCT_NAME = GyozaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2D69A90BEBA9E3892BFA00EB20D05DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D51E35883BBB3E020281FDB79163328 /* GyozaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
+				PRODUCT_MODULE_NAME = GyozaKit;
+				PRODUCT_NAME = GyozaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -660,98 +718,32 @@
 			};
 			name = Release;
 		};
-		C93FB223A7ECC5B562AA04CC486CA5E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5746CF5274067EE1154337AB3E3BE507 /* Pods-GyozaKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GyozaKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GyozaKit_Tests/Pods-GyozaKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D5CE1BCB8BF12460AEA26CA015FF78C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C890039215A2113D52A35FCA3E3D7825 /* GyozaKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
-				PRODUCT_MODULE_NAME = GyozaKit;
-				PRODUCT_NAME = GyozaKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		728930DB187C4A07DAC3A0064658A807 /* Build configuration list for PBXNativeTarget "GyozaKit" */ = {
+		928352D2E8769B36997BB13611C48C0F /* Build configuration list for PBXNativeTarget "Pods-GyozaKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5CE1BCB8BF12460AEA26CA015FF78C8 /* Debug */,
-				3B5F17321D670E91886FAFEB1B43AE8E /* Release */,
+				039626EEC398C955160C6349F5B747B7 /* Debug */,
+				A3E39ACE8DF477CCB16C1BCA37B12A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3192257AD50B833DC417745B0E6BE00 /* Build configuration list for PBXNativeTarget "Pods-GyozaKit_Tests" */ = {
+		BB03EBD5E0228CF62C6839C23FEEE3DF /* Build configuration list for PBXNativeTarget "GyozaKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C93FB223A7ECC5B562AA04CC486CA5E1 /* Debug */,
-				1F00E7BA32CC70CD022BBC52C001F031 /* Release */,
+				D2D69A90BEBA9E3892BFA00EB20D05DB /* Debug */,
+				CC6B9A21F13AC377BF8BC4156729E810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,8 +751,8 @@
 		E5BE2C63FC5A3B1B7748B65DD4572FE2 /* Build configuration list for PBXNativeTarget "Pods-GyozaKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0BEE7280150B054CE34CCA210B19247 /* Debug */,
-				113B8BDFFD77E60A8983832F5DD14283 /* Release */,
+				1D478D5160777CE30C150503C820C565 /* Debug */,
+				305AA8AAA35C1021727E7C941A7F0500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
