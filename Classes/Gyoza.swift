@@ -17,7 +17,14 @@ public class Gyoza: UIView {
         }
     }
 
-    private let minimumHeight: CGFloat = 56
+    private let heightOfGyoza: CGFloat = {
+        if #available(iOS 11.0, *) {
+            if let safeAreaBottomHeight = UIApplication.shared.keyWindow?.safeAreaInsets.bottom {
+                return safeAreaBottomHeight + 60
+            }
+        }
+        return 60
+    }()
 
     // MARK: Theming properties
 
@@ -40,7 +47,7 @@ public class Gyoza: UIView {
 
     private var calculateMinimumHeight: CGFloat {
         if #available(iOS 11.0, *) {
-            guard let height = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return minimumHeight }
+            guard let height = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return heightOfGyoza }
             return self.bounds.height + height
         }
 
@@ -102,16 +109,11 @@ public class Gyoza: UIView {
         view.addSubview(self)
         self.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        self.heightAnchor.constraint(greaterThanOrEqualToConstant: minimumHeight).isActive = true
-
-        if #available(iOS 11.0, *) {
-            self.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-        } else {
-            self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        }
+        self.heightAnchor.constraint(greaterThanOrEqualToConstant: heightOfGyoza).isActive = true
+        self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 
         let stackView = UIStackView(frame: .zero)
-        stackView.alignment = .fill
+        stackView.alignment = .top
         stackView.distribution = .fill
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false

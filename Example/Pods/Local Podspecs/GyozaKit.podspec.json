@@ -1,22 +1,28 @@
 {
   "name": "GyozaKit",
-  "version": "0.1.0",
-  "summary": "A short description of GyozaKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "GyozaKit for iOS allows you to create a simple message to display to your user",
+  "description": "GyozaKit for iOS allows you to create a simple message with or without an action to display to your users. Once the gyoza is invoked, it'll pop into view with a simple animation.",
   "homepage": "https://github.com/john-crossley/GyozaKit",
+  "screenshots": [
+    "https://raw.githubusercontent.com/john-crossley/GyozaKit/master/Example/GyozaKit/iPhoneSE-Screenshot.png",
+    "https://raw.githubusercontent.com/john-crossley/GyozaKit/master/Example/GyozaKit/iPhoneX-Screenshot.png"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "john-crossley": "jonnysnip3r@gmail.com"
+    "john-crossley": "johnpaulcrossley@gmail.com",
+    "jamesruston": "jruston90@gmail.com"
   },
   "source": {
     "git": "https://github.com/john-crossley/GyozaKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
+  "social_media_url": "https://twitter.com/jonnothebonno",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "GyozaKit/Classes/**/*"
+  "source_files": "Classes/**/*"
 }
