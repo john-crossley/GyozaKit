@@ -158,6 +158,10 @@ public class Gyoza: UIView {
         animateGyoza(on: view)
     }
 
+    public func hide() {
+        continueAnimation()
+    }
+
     // MARK: Animate
     private var animateIn: () -> Void {
         return {
