@@ -1,5 +1,5 @@
 PODS:
-  - GyozaKit (0.1.1)
+  - GyozaKit (0.1.6)
 
 DEPENDENCIES:
   - GyozaKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GyozaKit: ca83c192d71d05ad515a03625fcaa69a3187f8d7
+  GyozaKit: d51e432f5ec53c1007109cb629a144d360dbcc22
 
 PODFILE CHECKSUM: edd7a23ef07f81e625e3eca923002f76f820f3b3
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
