@@ -51,11 +51,8 @@ public class Gyoza: UIView {
         switch position {
         case .top: return heightOfGyoza
         case .bottom:
-            if #available(iOS 11.0, *) {
-                guard let additionalHeight = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return heightOfGyoza }
-                return heightOfGyoza + additionalHeight
-            }
-            return heightOfGyoza
+            guard let additionalHeight = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return heightOfGyoza }
+            return heightOfGyoza + additionalHeight
         }
     }
 
@@ -186,23 +183,15 @@ public class Gyoza: UIView {
 
     private func attachGyoza(to view: UIView) {
         view.addSubview(self)
-        self.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        self.heightAnchor.constraint(greaterThanOrEqualToConstant: minimumHeight).isActive = true
+        trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        heightAnchor.constraint(greaterThanOrEqualToConstant: minimumHeight).isActive = true
 
         switch position {
         case .top:
-            if #available(iOS 11.0, *) {
-                self.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
-            } else {
-                self.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-            }
+            topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         case .bottom:
-            if #available(iOS 11.0, *) {
-                self.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-            } else {
-                self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-            }
+            bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         }
     }
 

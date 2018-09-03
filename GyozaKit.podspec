@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'GyozaKit'
-  s.version = '0.1.6'
+  s.version = '1.0.0'
   s.summary = 'GyozaKit for iOS allows you to create a simple message to display to your user'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/john-crossley/GyozaKit.git', :tag => s.version }
   s.social_media_url = 'https://twitter.com/jonnothebonno'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Classes/**/*'
 
