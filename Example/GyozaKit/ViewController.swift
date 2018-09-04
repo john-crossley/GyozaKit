@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             builder.messageColor = .white
             builder.backgroundColor = UIColor(red: 0.20, green: 0.20, blue: 0.20, alpha: 1.00)
             builder.actionLabelColor = UIColor(red: 0.16, green: 0.90, blue: 0.40, alpha: 1.00)
+            builder.pinTo = .top
 
             builder.action = Gyoza.Action(title: "ACTION", handler: { [weak self] in
                 guard let controller = self?.makeAlertController() else { return }

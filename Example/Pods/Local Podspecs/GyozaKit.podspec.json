@@ -1,6 +1,6 @@
 {
   "name": "GyozaKit",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "summary": "GyozaKit for iOS allows you to create a simple message to display to your user",
   "description": "GyozaKit for iOS allows you to create a simple message with or without an action to display to your users. Once the gyoza is invoked, it'll pop into view with a simple animation.",
   "homepage": "https://github.com/john-crossley/GyozaKit",
@@ -18,7 +18,7 @@
   },
   "source": {
     "git": "https://github.com/john-crossley/GyozaKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.6"
   },
   "social_media_url": "https://twitter.com/jonnothebonno",
   "platforms": {

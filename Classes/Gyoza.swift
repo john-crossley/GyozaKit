@@ -6,6 +6,13 @@ import UIKit
 
 public class Gyoza: UIView {
 
+    public enum Position {
+        case top
+        case bottom
+    }
+
+    private let position: Position
+
     public struct Action {
         public typealias Handler = () -> Void
         public let title: String
@@ -17,14 +24,7 @@ public class Gyoza: UIView {
         }
     }
 
-    private let heightOfGyoza: CGFloat = {
-        if #available(iOS 11.0, *) {
-            if let safeAreaBottomHeight = UIApplication.shared.keyWindow?.safeAreaInsets.bottom {
-                return safeAreaBottomHeight + 60
-            }
-        }
-        return 60
-    }()
+    private let minimumHeight: CGFloat = 56
 
     // MARK: Theming properties
 
@@ -47,12 +47,14 @@ public class Gyoza: UIView {
     private var action: Action?
 
     private var calculateMinimumHeight: CGFloat {
-        if #available(iOS 11.0, *) {
-            guard let height = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return heightOfGyoza }
-            return self.bounds.height + height
-        }
+        let heightOfGyoza = self.bounds.height
 
-        return self.bounds.height
+        switch position {
+        case .top: return heightOfGyoza
+        case .bottom:
+            guard let additionalHeight = UIApplication.shared.keyWindow?.safeAreaInsets.bottom else { return heightOfGyoza }
+            return heightOfGyoza + additionalHeight
+        }
     }
 
     private lazy var messageLabel: UILabel = {
@@ -88,6 +90,7 @@ public class Gyoza: UIView {
         self.animateInDuration = builder.animateInDuration
         self.animateOutDuration = builder.animateOutDuration
         self.animatePauseDuration = builder.animatePauseDuration
+        self.position = builder.pinTo
 
         super.init(frame: .zero)
 
@@ -107,44 +110,22 @@ public class Gyoza: UIView {
         action?.handler()
     }
 
-    private func setupContainerView(on view: UIView) {
-        view.addSubview(self)
-        self.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        self.heightAnchor.constraint(greaterThanOrEqualToConstant: heightOfGyoza).isActive = true
-        self.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-
-        let stackView = UIStackView(frame: .zero)
-        stackView.alignment = self.messageAlignment
-        stackView.distribution = .fill
-        stackView.axis = .horizontal
-        stackView.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(stackView)
-
-        stackView.topAnchor.constraint(equalTo: self.topAnchor, constant: 16).isActive = true
-        stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16).isActive = true
-        stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16).isActive = true
-        stackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -16).isActive = true
-        stackView.spacing = 8
-
-        stackView.addArrangedSubview(messageLabel)
-        stackView.isUserInteractionEnabled = true
-
-        if let action = self.action {
-            actionButton.contentCompressionResistancePriority(for: .horizontal)
-            actionButton.setContentHuggingPriority(.required, for: .horizontal)
-            actionButton.setTitle(action.title, for: .normal)
-            actionButton.setTitleColor(self.actionLabelColor, for: .normal)
-            actionButton.addTarget(self, action: #selector(didTapActionButton(sender:)), for: .touchUpInside)
-            stackView.addArrangedSubview(actionButton)
-        }
-
+    private func setupContainer(on view: UIView) {
+        attachGyoza(to: view)
+        attachStackView()
         messageLabel.text = self.message
         self.layoutIfNeeded()
     }
 
-    private func animateGyoza(on view: UIView) {
-        self.transform = CGAffineTransform(translationX: 0, y: calculateMinimumHeight)
+    private func animateGyoza() {
+
+        switch position {
+        case .top:
+            self.transform = CGAffineTransform(translationX: 0, y: -calculateMinimumHeight)
+        case .bottom:
+            self.transform = CGAffineTransform(translationX: 0, y: calculateMinimumHeight)
+        }
+
         // Could have used UIView.animateKeyframes but this way will allow the user to easily
         // specify a custom time without us having to do dem mad animateKeyFrames calculations 🤷🏻‍♀️
         UIView.animate(withDuration: self.animateInDuration,
@@ -156,8 +137,8 @@ public class Gyoza: UIView {
 
     public func show(on view: UIView) {
         decorateGyoza()
-        setupContainerView(on: view)
-        animateGyoza(on: view)
+        setupContainer(on: view)
+        animateGyoza()
     }
 
     public func hide() {
@@ -167,7 +148,7 @@ public class Gyoza: UIView {
     // MARK: Animate
     private var animateIn: () -> Void {
         return {
-            self.transform = CGAffineTransform(translationX: 0, y: 0)
+            self.transform = .identity
         }
     }
 
@@ -191,7 +172,12 @@ public class Gyoza: UIView {
 
     private var animateOut: () -> Void {
         return {
-            self.transform = CGAffineTransform(translationX: 0, y: self.calculateMinimumHeight)
+            switch self.position {
+            case .top:
+                self.transform = CGAffineTransform(translationX: 0, y: -self.calculateMinimumHeight)
+            case .bottom:
+                self.transform = CGAffineTransform(translationX: 0, y: self.calculateMinimumHeight)
+            }
         }
     }
 
@@ -199,5 +185,50 @@ public class Gyoza: UIView {
         return { _ in
             self.removeFromSuperview()
         }
+    }
+
+    private func attachGyoza(to view: UIView) {
+        view.addSubview(self)
+        trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        heightAnchor.constraint(greaterThanOrEqualToConstant: minimumHeight).isActive = true
+
+        switch position {
+        case .top:
+            topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+        case .bottom:
+            bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        }
+    }
+
+    private func makeStackView() -> UIStackView {
+        let stackView = UIStackView(frame: .zero)
+        stackView.alignment = .fill
+        stackView.distribution = .fill
+        stackView.axis = .horizontal
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.isUserInteractionEnabled = true
+        stackView.spacing = 8
+        return stackView
+    }
+
+    private func attachStackView() {
+        let stackView = makeStackView()
+        addSubview(stackView)
+
+        stackView.topAnchor.constraint(equalTo: self.topAnchor, constant: 16).isActive = true
+        stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16).isActive = true
+        stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16).isActive = true
+        stackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -16).isActive = true
+        stackView.addArrangedSubview(messageLabel)
+
+        guard let action = self.action else { return }
+
+        actionButton.contentCompressionResistancePriority(for: .horizontal)
+        actionButton.setContentHuggingPriority(.required, for: .horizontal)
+        actionButton.setTitle(action.title, for: .normal)
+        actionButton.setTitleColor(self.actionLabelColor, for: .normal)
+        actionButton.addTarget(self, action: #selector(didTapActionButton(sender:)), for: .touchUpInside)
+        stackView.addArrangedSubview(actionButton)
     }
 }

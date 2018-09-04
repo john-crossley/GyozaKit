@@ -15,5 +15,5 @@ public class GyozaBuilder {
     public var animateInDuration: TimeInterval = 0.5
     public var animateOutDuration: TimeInterval = 0.5
     public var animatePauseDuration: TimeInterval = 3
-
+    public var pinTo: Gyoza.Position = .bottom
 }

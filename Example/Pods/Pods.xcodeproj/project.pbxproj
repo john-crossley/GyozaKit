@@ -39,21 +39,21 @@
 
 /* Begin PBXFileReference section */
 		05B726589D179D2F05C0082ABC6C1D97 /* Pods-GyozaKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GyozaKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		08BDDDF2781A42D481312D7F26F1A353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		08BDDDF2781A42D481312D7F26F1A353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2163939922012305507F787296A6A9BA /* GyozaBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GyozaBuilder.swift; sourceTree = "<group>"; };
 		253CC2C4F44F4E76082E04895E12A2B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FB2F41F6B2893462F1E075E2D1E979C /* Pods-GyozaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34B7AA34CC5CF01E5988816691BBDABC /* GyozaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GyozaKit.framework; path = GyozaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7AA34CC5CF01E5988816691BBDABC /* GyozaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GyozaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		376496B792AB45CB5DBDFBE5393FF81C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B72EA6993E739D678298484D235E40F /* Pods-GyozaKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GyozaKit_Example.modulemap"; sourceTree = "<group>"; };
-		3C18E023113321F5F5AC309830E9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C18E023113321F5F5AC309830E9B796 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C9699068635B52DC4489788205D24C7 /* Pods-GyozaKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GyozaKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D9DCC6F5ACB1A5C1B68892FB5756CDC /* Pods-GyozaKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GyozaKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5746CF5274067EE1154337AB3E3BE507 /* Pods-GyozaKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GyozaKit_Tests.framework; path = "Pods-GyozaKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD2C4A2CC1139F928E6D811D1EF20CE /* Pods_GyozaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyozaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFF77EEA8AC82F3F47437F80A086D92 /* GyozaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GyozaKit.modulemap; sourceTree = "<group>"; };
 		5F9535BB02EF0BB75CC0FE5CED8F47F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		606D9F532D2A85A45107E08479590949 /* Pods_GyozaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GyozaKit_Example.framework; path = "Pods-GyozaKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606D9F532D2A85A45107E08479590949 /* Pods_GyozaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyozaKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65327E9F14507ADD38A7843E347D7F81 /* Pods-GyozaKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GyozaKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E0F71D42B9496B84FDF1D5822ADF11E /* Pods-GyozaKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GyozaKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		85DBADE85187BDA6E71A9BFA1B8EBD8E /* Pods-GyozaKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		8D51E35883BBB3E020281FDB79163328 /* GyozaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GyozaKit.xcconfig; sourceTree = "<group>"; };
 		905921B466F428498825CE81C2532A1B /* GyozaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GyozaKit-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E109869FF0BB54FF89042551E803ED /* GyozaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GyozaKit-prefix.pch"; sourceTree = "<group>"; };
 		A607C315BD2861980F7A804A534EF440 /* Pods-GyozaKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1468354CE27F0AD794D768A774660E2 /* Pods-GyozaKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GyozaKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		E2D4A9B9E5EE684FCB735E58C7543D7A /* Pods-GyozaKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GyozaKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E4B6DE5771E93E20087146A103830FDD /* Gyoza.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gyoza.swift; path = Classes/Gyoza.swift; sourceTree = "<group>"; };
 		F43BAB947030370AD7B4CD53E70C5D63 /* Pods-GyozaKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GyozaKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9901B505821AE602FF2FEE8BEF7E10B /* GyozaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GyozaKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9901B505821AE602FF2FEE8BEF7E10B /* GyozaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GyozaKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -611,7 +611,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
 				PRODUCT_MODULE_NAME = GyozaKit;
@@ -644,7 +644,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GyozaKit/GyozaKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GyozaKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GyozaKit/GyozaKit.modulemap";
 				PRODUCT_MODULE_NAME = GyozaKit;
