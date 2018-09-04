@@ -60,6 +60,22 @@ let gyoza = Gyoza { builder in
 gyoza.show(on: self.view)
 ```
 
+### Pin a Gyoza to the Top or Bottom of the screen
+
+You can now specify where to pin a Gyoza on screen using the following example. 
+
+```swift
+import GyozaKit
+
+let gyoza = Gyoza { builder in
+    builder.message = "Welcome back, John! 😍"
+    builder.pinTo = .top // this defaults to bottom if not specified
+}
+
+gyoza.show(on: self.view)
+
+```
+
 ## Author
 - [John Crossley](https://github.com/john-crossley)
 - [James Ruston](http://github.com/jamesruston)
