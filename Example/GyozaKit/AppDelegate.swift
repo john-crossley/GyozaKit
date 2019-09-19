@@ -10,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         let controller = ViewController(nibName: nil, bundle: nil)
         controller.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
