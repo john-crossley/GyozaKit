@@ -5,6 +5,12 @@
 
 # GyozaKit 🥟
 
+## Requirements
+
+iOS 11.0+
+Xcode 10.0+
+Swift 5.0+
+
 ![GyozaKit Demo](https://raw.githubusercontent.com/john-crossley/GyozaKit/master/Example/GyozaKit/GyozaKit.gif)
 
 ## Installation
@@ -62,7 +68,7 @@ gyoza.show(on: self.view)
 
 ### Pin a Gyoza to the Top or Bottom of the screen
 
-You can now specify where to pin a Gyoza on screen using the following example. 
+You can now specify where to pin a Gyoza on screen using the following example.
 
 ```swift
 import GyozaKit
