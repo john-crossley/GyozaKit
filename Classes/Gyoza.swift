@@ -29,6 +29,7 @@ public class Gyoza: UIView {
     // MARK: Theming properties
 
     private let messageColor: UIColor
+    private let messageAlignment: UIStackViewAlignment
     private let actionLabelColor: UIColor
 
     // MARK: Properties
@@ -82,6 +83,7 @@ public class Gyoza: UIView {
 
         self.message = message
         self.messageColor = builder.messageColor
+        self.messageAlignment = builder.messageAlignment
         self.action = builder.action
         self.actionLabelColor = builder.actionLabelColor
 
@@ -137,6 +139,10 @@ public class Gyoza: UIView {
         decorateGyoza()
         setupContainer(on: view)
         animateGyoza()
+    }
+
+    public func hide() {
+        continueAnimation()
     }
 
     // MARK: Animate
